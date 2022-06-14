@@ -11,16 +11,16 @@
     },
     ".eslintrc.json": "*"
   },
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "nx/tasks-runners/default",
+  "tasksRunnerOptions": { "default": {
+      "runner": "@nrwl/nx-cloud",
       "options": {
         "cacheableOperations": [
           "build",
           "lint",
           "test",
           "e2e"
-        ]
+        ],
+        "accessToken": "MzE1NzBhZjAtOTk5Ny00MWI1LThjNDAtNTJmM2I4YzJlMDU3fHJlYWQtd3JpdGU="
       }
     }
   },
